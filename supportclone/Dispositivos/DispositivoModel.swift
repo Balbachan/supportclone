@@ -5,16 +5,16 @@
 //  Created by Laura C. Balbachan dos Santos on 14/08/23.
 //
 
-import SwiftUI
+import Foundation
 
-struct DispositivoModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct Dispositivos: Identifiable {
+    var id = UUID()
+    var image : String
+    var name: String
+    var description: String
 }
 
-struct DispositivoModel_Previews: PreviewProvider {
-    static var previews: some View {
-        DispositivoModel()
-    }
-}
+var dispositivosRow = [
+    Dispositivos(image: "apple1", name: "Julia's AirPods", description: "AirPods emparelhado"),
+    Dispositivos(image: "apple2", name: "m8", description: "Este IPhone 11")
+]

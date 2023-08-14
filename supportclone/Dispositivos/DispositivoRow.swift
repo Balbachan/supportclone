@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct DispositivoRow: View {
+    let rows = [GridItem(.adaptive(minimum: 80))]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.horizontal) {
+            LazyHGrid(rows: rows, alignment: .center) {
+                ForEach(dispositivosRow, id: \.id) { dispositivos in
+                    DispositivoCell(dispotivos: dispositivos)
+                }
+            }
+            .frame(height: 160) // altura da célula 
+        }
+        .scrollIndicators(.hidden)
     }
 }
-
-struct DispositivoRow_Previews: PreviewProvider {
-    static var previews: some View {
-        DispositivoRow()
+    
+    struct DispositivoRow_Previews: PreviewProvider {
+        static var previews: some View {
+            DispositivoRow()
+        }
     }
-}

@@ -9,7 +9,18 @@ import SwiftUI
 
 struct DispositivoView: View {
     var body: some View {
-        Text("aa")
+        VStack(alignment: .leading) {
+            HStack {
+                Text("Meus dispositivos")
+                    .bold()
+                    .font(.title3)
+                Image(systemName: "chevron.right")
+                    .bold()
+                    .foregroundColor(.gray)
+            }
+            DispositivoRow()
+        }
+        .padding()
     }
 }
 
