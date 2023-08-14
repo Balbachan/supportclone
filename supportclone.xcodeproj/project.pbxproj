@@ -141,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19FF20942A8A93EA0009D3C7 /* ContentView.swift in Sources */,
+				DCD6E47E2A8AA04900E74DDC /* AtividadesView.swift in Sources */,
 				19FF20922A8A93EA0009D3C7 /* supportcloneApp.swift in Sources */,
 				DCD6E4802A8AB70E00E74DDC /* Mapaa.swift in Sources */,
 			);

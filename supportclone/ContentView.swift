@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-       Text("Hello world")
+        TabView {
+            AtividadesView()
+                .tabItem {
+                    Label("Atividades", systemImage: "clock.fill")
+                }
+            
+        }
     }
 }
 
