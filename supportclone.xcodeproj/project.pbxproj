@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19F400842A8BE423007FD2DD /* DispositivoNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400832A8BE423007FD2DD /* DispositivoNavigation.swift */; };
+		19F400862A8BE9F5007FD2DD /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400852A8BE9F5007FD2DD /* SupportView.swift */; };
 		19FF20922A8A93EA0009D3C7 /* supportcloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */; };
 		19FF20942A8A93EA0009D3C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20932A8A93EA0009D3C7 /* ContentView.swift */; };
 		19FF20962A8A93EB0009D3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FF20952A8A93EB0009D3C7 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		19F400832A8BE423007FD2DD /* DispositivoNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoNavigation.swift; sourceTree = "<group>"; };
+		19F400852A8BE9F5007FD2DD /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
 		19FF208E2A8A93EA0009D3C7 /* supportclone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supportclone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supportcloneApp.swift; sourceTree = "<group>"; };
 		19FF20932A8A93EA0009D3C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			children = (
 				19FF20AB2A8AB6810009D3C7 /* Atividades */,
 				19FF20AA2A8AB6580009D3C7 /* Dispositivos */,
+				19F400852A8BE9F5007FD2DD /* SupportView.swift */,
 				19FF20932A8A93EA0009D3C7 /* ContentView.swift */,
 				19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */,
 				19FF20952A8A93EB0009D3C7 /* Assets.xcassets */,
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F400862A8BE9F5007FD2DD /* SupportView.swift in Sources */,
 				19FF20AD2A8AB6BD0009D3C7 /* DispositivoView.swift in Sources */,
 				19FF20942A8A93EA0009D3C7 /* ContentView.swift in Sources */,
 				19FF20B12A8AB6CF0009D3C7 /* DispositivoRow.swift in Sources */,

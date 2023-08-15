@@ -15,6 +15,11 @@ struct ContentView: View {
                     Label("Atividades", systemImage: "clock.fill")
                 }
             
+            DispositivoView()
+                .tabItem {
+                    Label("Atividades", systemImage: "clock.fill")
+                }
+            
         }
     }
 }
