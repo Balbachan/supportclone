@@ -14,7 +14,7 @@ struct DispositivoRow: View {
             LazyHGrid(rows: rows, alignment: .center) {
                 ForEach(dispositivosRow, id: \.id) { dispositivos in
                     NavigationLink {
-                        Text("AA")
+                        DispositivoNavigation(dispositivos: dispositivos)
                     } label: {
                         DispositivoCell(dispositivos: dispositivos)
                     }
