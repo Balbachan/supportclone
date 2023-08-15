@@ -10,12 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            AtividadesView()
+            SupportView()
                 .tabItem {
                     Label("Atividades", systemImage: "clock.fill")
                 }
             
-            DispositivoView()
+            AtividadesView()
                 .tabItem {
                     Label("Atividades", systemImage: "clock.fill")
                 }

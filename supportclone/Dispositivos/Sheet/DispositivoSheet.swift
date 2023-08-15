@@ -23,7 +23,9 @@ struct DispositivoSheet: View {
                                     Image(dispositivos.image)
                                         .resizable()
                                         .scaledToFit()
-                                        .frame(width: 40)
+                                        .frame(width: 15)
+                                        .padding(.horizontal, 5)
+                                    
                                     
                                     VStack(alignment: .leading) {
                                         
@@ -32,24 +34,20 @@ struct DispositivoSheet: View {
                                             .foregroundColor(.gray)
                                             .font(.caption)
                                         
-    //                                        .frame(width: 300)
                                     }
                                 }
-                                
-                                Divider()
-                                
                             }
                         }
                         
                     }
                 footer: {
                     Text("Você pode gerenciar seus dispositivos em Ajustes. Para gerenciar AirPods, acesse Buscar.")
+                        .multilineTextAlignment(.leading)
                         .foregroundColor(.gray)
                         .font(.caption)
-                        .padding(.vertical)
+                        .padding(.vertical, 10)
                     
                 }
-                .listRowSeparator(.hidden, edges: .all)
                 }
                 
                 .scrollContentBackground(.hidden)
