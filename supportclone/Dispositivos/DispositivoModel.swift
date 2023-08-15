@@ -15,6 +15,7 @@ struct Dispositivos: Identifiable {
 }
 
 var dispositivosRow = [
+    Dispositivos(image: "apple2", name: "m8", description: "Este IPhone 11"),
     Dispositivos(image: "apple1", name: "Julia's AirPods", description: "AirPods emparelhado"),
-    Dispositivos(image: "apple2", name: "m8", description: "Este IPhone 11")
+    Dispositivos(image: "apple3", name: "Lau", description: "iPad")
 ]

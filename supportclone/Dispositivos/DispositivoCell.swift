@@ -8,20 +8,20 @@
 import SwiftUI
 
 struct DispositivoCell: View {
-    var dispotivos: Dispositivos
+    var dispositivos: Dispositivos
     
     var body: some View {
         VStack(spacing: 15) {
-            Image(dispotivos.image)
+            Image(dispositivos.image)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 60)
                 .shadow(radius: 3)
 
             VStack(spacing: 2) {
-                Text(dispotivos.name)
+                Text(dispositivos.name)
                     .font(.headline)
-                Text(dispotivos.description)
+                Text(dispositivos.description)
                     .foregroundColor(.gray)
                     .font(.caption)
             }
@@ -34,6 +34,6 @@ struct DispositivoCell: View {
 
 struct DispositivoCell_Previews: PreviewProvider {
     static var previews: some View {
-        DispositivoCell(dispotivos: dispositivosRow[0])
+        DispositivoCell(dispositivos: dispositivosRow[0])
     }
 }

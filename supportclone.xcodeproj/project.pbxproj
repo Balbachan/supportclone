@@ -15,6 +15,8 @@
 		19FF20AF2A8AB6C70009D3C7 /* DispositivoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20AE2A8AB6C70009D3C7 /* DispositivoCell.swift */; };
 		19FF20B12A8AB6CF0009D3C7 /* DispositivoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20B02A8AB6CF0009D3C7 /* DispositivoRow.swift */; };
 		19FF20B42A8AB6ED0009D3C7 /* DispositivoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20B32A8AB6ED0009D3C7 /* DispositivoModel.swift */; };
+		19FF20B62A8AC3220009D3C7 /* DispositivoSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20B52A8AC3220009D3C7 /* DispositivoSheet.swift */; };
+		19FF20BA2A8ACC9A0009D3C7 /* DispositivoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20B92A8ACC9A0009D3C7 /* DispositivoList.swift */; };
 		DCD6E47E2A8AA04900E74DDC /* AtividadesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6E47D2A8AA04900E74DDC /* AtividadesView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		19FF20AE2A8AB6C70009D3C7 /* DispositivoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoCell.swift; sourceTree = "<group>"; };
 		19FF20B02A8AB6CF0009D3C7 /* DispositivoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoRow.swift; sourceTree = "<group>"; };
 		19FF20B32A8AB6ED0009D3C7 /* DispositivoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoModel.swift; sourceTree = "<group>"; };
+		19FF20B52A8AC3220009D3C7 /* DispositivoSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoSheet.swift; sourceTree = "<group>"; };
+		19FF20B92A8ACC9A0009D3C7 /* DispositivoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoList.swift; sourceTree = "<group>"; };
 		DCD6E47D2A8AA04900E74DDC /* AtividadesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtividadesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +46,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19F400812A8BDCB1007FD2DD /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
 		19FF20852A8A93EA0009D3C7 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +93,8 @@
 		19FF20AA2A8AB6580009D3C7 /* Dispositivos */ = {
 			isa = PBXGroup;
 			children = (
+				19F400812A8BDCB1007FD2DD /* NavigationView */,
+				19FF20B72A8ACC6C0009D3C7 /* Sheet */,
 				19FF20B32A8AB6ED0009D3C7 /* DispositivoModel.swift */,
 				19FF20AE2A8AB6C70009D3C7 /* DispositivoCell.swift */,
 				19FF20B02A8AB6CF0009D3C7 /* DispositivoRow.swift */,
@@ -96,6 +109,15 @@
 				DCD6E47D2A8AA04900E74DDC /* AtividadesView.swift */,
 			);
 			path = Atividades;
+			sourceTree = "<group>";
+		};
+		19FF20B72A8ACC6C0009D3C7 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				19FF20B92A8ACC9A0009D3C7 /* DispositivoList.swift */,
+				19FF20B52A8AC3220009D3C7 /* DispositivoSheet.swift */,
+			);
+			path = Sheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,8 +193,10 @@
 				19FF20AD2A8AB6BD0009D3C7 /* DispositivoView.swift in Sources */,
 				19FF20942A8A93EA0009D3C7 /* ContentView.swift in Sources */,
 				19FF20B12A8AB6CF0009D3C7 /* DispositivoRow.swift in Sources */,
+				19FF20B62A8AC3220009D3C7 /* DispositivoSheet.swift in Sources */,
 				DCD6E47E2A8AA04900E74DDC /* AtividadesView.swift in Sources */,
 				19FF20AF2A8AB6C70009D3C7 /* DispositivoCell.swift in Sources */,
+				19FF20BA2A8ACC9A0009D3C7 /* DispositivoList.swift in Sources */,
 				19FF20922A8A93EA0009D3C7 /* supportcloneApp.swift in Sources */,
 				19FF20B42A8AB6ED0009D3C7 /* DispositivoModel.swift in Sources */,
 			);

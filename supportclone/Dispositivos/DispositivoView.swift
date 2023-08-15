@@ -8,19 +8,33 @@
 import SwiftUI
 
 struct DispositivoView: View {
+    @State private var showingSheet = false
+    
     var body: some View {
-        VStack(alignment: .leading) {
-            HStack {
-                Text("Meus dispositivos")
-                    .bold()
-                    .font(.title3)
-                Image(systemName: "chevron.right")
-                    .bold()
-                    .foregroundColor(.gray)
+        NavigationStack {
+            VStack(alignment: .leading) {
+                HStack {
+                    Button {
+                        showingSheet.toggle()
+                    } label: {
+                        Text("Meus dispositivos")
+                            .bold()
+                            .font(.title3)
+                        Image(systemName: "chevron.right")
+                            .bold()
+                            .foregroundColor(.gray)
+                    }
+                    .padding(.horizontal)
+                    .buttonStyle(PlainButtonStyle())
+                    .sheet(isPresented: $showingSheet) {
+                        DispositivoSheet()
+                    }
+                    
+                }
+                DispositivoRow()
+                    .buttonStyle(PlainButtonStyle())
             }
-            DispositivoRow()
         }
-        .padding()
     }
 }
 
@@ -29,3 +43,4 @@ struct DispositivoView_Previews: PreviewProvider {
         DispositivoView()
     }
 }
+
