@@ -55,10 +55,9 @@
 		19FF20902A8A93EA0009D3C7 /* supportclone */ = {
 			isa = PBXGroup;
 			children = (
-				DCD6E4832A8BEC6400E74DDC /* BotaoView.swift */,
-				DCD6E47F2A8AB70E00E74DDC /* Mapaa.swift */,
-				19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */,
+				DCD6E4852A8C114700E74DDC /* New Group */,
 				19FF20932A8A93EA0009D3C7 /* ContentView.swift */,
+				19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */,
 				19FF20952A8A93EB0009D3C7 /* Assets.xcassets */,
 				19FF20972A8A93EB0009D3C7 /* Preview Content */,
 			);
@@ -71,6 +70,15 @@
 				19FF20982A8A93EB0009D3C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCD6E4852A8C114700E74DDC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				DCD6E47F2A8AB70E00E74DDC /* Mapaa.swift */,
+				DCD6E4832A8BEC6400E74DDC /* BotaoView.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
