@@ -10,11 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            AtividadesView()
+            MapaView()
                 .tabItem {
-                    Label("Atividades", systemImage: "clock.fill")
+                    Label("Localizações", systemImage: "mappin.and.ellipse")
                 }
-            
         }
     }
 }
