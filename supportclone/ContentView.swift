@@ -14,7 +14,6 @@ struct ContentView: View {
                 .tabItem {
                     Label("Localizações", systemImage: "mappin.and.ellipse")
                 }
-            
         }
     }
 }

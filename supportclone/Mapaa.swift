@@ -11,13 +11,18 @@ import SwiftUI
 
 struct MapaView: View {
     var body: some View {
+        
         NavigationStack {
-            @State var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: -23.530428407997228, longitude: -46.57457693299173), span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
-            
-            
-            Map(coordinateRegion: $mapRegion)
-                .navigationTitle("Locais de Reparo")
-                .navigationBarTitleDisplayMode(.inline)
+            ZStack {
+                @State var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: -23.530428407997228, longitude: -46.57457693299173), span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
+                
+                
+                Map(coordinateRegion: $mapRegion)
+                    .navigationTitle("Locais de Reparo")
+                    .navigationBarTitleDisplayMode(.inline)
+                BotaoView()
+                    .padding()
+            }
         }
     }
 }
