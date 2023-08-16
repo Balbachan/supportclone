@@ -12,12 +12,17 @@ struct ContentView: View {
         TabView {
             SupportView()
                 .tabItem {
-                    Label("Atividades", systemImage: "clock.fill")
+                    Label("Suporte", systemImage: "grid")
+                }
+            
+            MapaView()
+                .tabItem {
+                    Label("Localizações", systemImage: "mappin.and.ellipse")
                 }
             
             AtividadesView()
                 .tabItem {
-                    Label("Localizações", systemImage: "mappin.and.ellipse")
+                    Label("Atividades", systemImage: "clock")
                 }
         }
     }

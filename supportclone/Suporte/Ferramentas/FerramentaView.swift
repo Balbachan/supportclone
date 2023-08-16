@@ -20,9 +20,9 @@ struct FerramentaView: View {
                 showingSheet.toggle()
             } label : {
                 HStack {
-                    Image(systemName: "calendar")
+                    Image(systemName: "calendar.badge.plus")
                         .font(.title)
-                        .foregroundColor(.red)
+                        .foregroundStyle(.green, .red)
                     Text("Gerenciar assinaturas")
                         .font(.headline)
                     
