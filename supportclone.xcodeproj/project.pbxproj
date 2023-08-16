@@ -7,22 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19F400842A8BE423007FD2DD /* DispositivoNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400832A8BE423007FD2DD /* DispositivoNavigation.swift */; };
+		19F400862A8BE9F5007FD2DD /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400852A8BE9F5007FD2DD /* SupportView.swift */; };
+		19F400892A8BEC98007FD2DD /* FerramentaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400882A8BEC98007FD2DD /* FerramentaView.swift */; };
+		19F400912A8D3B49007FD2DD /* FerramentaSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400902A8D3B49007FD2DD /* FerramentaSheet.swift */; };
+		19F400952A8D3DF3007FD2DD /* BotaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400932A8D3DF3007FD2DD /* BotaoView.swift */; };
+		19F400962A8D3DF3007FD2DD /* Mapaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400942A8D3DF3007FD2DD /* Mapaa.swift */; };
 		19FF20922A8A93EA0009D3C7 /* supportcloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */; };
 		19FF20942A8A93EA0009D3C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20932A8A93EA0009D3C7 /* ContentView.swift */; };
 		19FF20962A8A93EB0009D3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FF20952A8A93EB0009D3C7 /* Assets.xcassets */; };
 		19FF20992A8A93EB0009D3C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FF20982A8A93EB0009D3C7 /* Preview Assets.xcassets */; };
-		DCD6E4802A8AB70E00E74DDC /* Mapaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6E47F2A8AB70E00E74DDC /* Mapaa.swift */; };
-		DCD6E4842A8BEC6400E74DDC /* BotaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6E4832A8BEC6400E74DDC /* BotaoView.swift */; };
+		19FF20AD2A8AB6BD0009D3C7 /* DispositivoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20AC2A8AB6BD0009D3C7 /* DispositivoView.swift */; };
+		19FF20AF2A8AB6C70009D3C7 /* DispositivoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20AE2A8AB6C70009D3C7 /* DispositivoCell.swift */; };
+		19FF20B12A8AB6CF0009D3C7 /* DispositivoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20B02A8AB6CF0009D3C7 /* DispositivoRow.swift */; };
+		19FF20B42A8AB6ED0009D3C7 /* DispositivoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20B32A8AB6ED0009D3C7 /* DispositivoModel.swift */; };
+		19FF20B62A8AC3220009D3C7 /* DispositivoSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20B52A8AC3220009D3C7 /* DispositivoSheet.swift */; };
+		DCD6E47E2A8AA04900E74DDC /* AtividadesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6E47D2A8AA04900E74DDC /* AtividadesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19F400832A8BE423007FD2DD /* DispositivoNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoNavigation.swift; sourceTree = "<group>"; };
+		19F400852A8BE9F5007FD2DD /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		19F400882A8BEC98007FD2DD /* FerramentaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerramentaView.swift; sourceTree = "<group>"; };
+		19F400902A8D3B49007FD2DD /* FerramentaSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FerramentaSheet.swift; sourceTree = "<group>"; };
+		19F400932A8D3DF3007FD2DD /* BotaoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotaoView.swift; sourceTree = "<group>"; };
+		19F400942A8D3DF3007FD2DD /* Mapaa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapaa.swift; sourceTree = "<group>"; };
 		19FF208E2A8A93EA0009D3C7 /* supportclone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supportclone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supportcloneApp.swift; sourceTree = "<group>"; };
 		19FF20932A8A93EA0009D3C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19FF20952A8A93EB0009D3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19FF20982A8A93EB0009D3C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DCD6E47F2A8AB70E00E74DDC /* Mapaa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapaa.swift; sourceTree = "<group>"; };
-		DCD6E4832A8BEC6400E74DDC /* BotaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotaoView.swift; sourceTree = "<group>"; };
+		19FF20AC2A8AB6BD0009D3C7 /* DispositivoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoView.swift; sourceTree = "<group>"; };
+		19FF20AE2A8AB6C70009D3C7 /* DispositivoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoCell.swift; sourceTree = "<group>"; };
+		19FF20B02A8AB6CF0009D3C7 /* DispositivoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoRow.swift; sourceTree = "<group>"; };
+		19FF20B32A8AB6ED0009D3C7 /* DispositivoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoModel.swift; sourceTree = "<group>"; };
+		19FF20B52A8AC3220009D3C7 /* DispositivoSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoSheet.swift; sourceTree = "<group>"; };
+		DCD6E47D2A8AA04900E74DDC /* AtividadesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtividadesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19F400812A8BDCB1007FD2DD /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				19F400832A8BE423007FD2DD /* DispositivoNavigation.swift */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		19F400872A8BEC74007FD2DD /* Ferramentas */ = {
+			isa = PBXGroup;
+			children = (
+				19F400882A8BEC98007FD2DD /* FerramentaView.swift */,
+				19F400902A8D3B49007FD2DD /* FerramentaSheet.swift */,
+			);
+			path = Ferramentas;
+			sourceTree = "<group>";
+		};
+		19F400922A8D3DE1007FD2DD /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				19F400932A8D3DF3007FD2DD /* BotaoView.swift */,
+				19F400942A8D3DF3007FD2DD /* Mapaa.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		19FF20852A8A93EA0009D3C7 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +101,11 @@
 		19FF20902A8A93EA0009D3C7 /* supportclone */ = {
 			isa = PBXGroup;
 			children = (
-				DCD6E4852A8C114700E74DDC /* New Group */,
+				19F400922A8D3DE1007FD2DD /* New Group */,
+				19FF20AB2A8AB6810009D3C7 /* Atividades */,
+				19F400872A8BEC74007FD2DD /* Ferramentas */,
+				19FF20AA2A8AB6580009D3C7 /* Dispositivos */,
+				19F400852A8BE9F5007FD2DD /* SupportView.swift */,
 				19FF20932A8A93EA0009D3C7 /* ContentView.swift */,
 				19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */,
 				19FF20952A8A93EB0009D3C7 /* Assets.xcassets */,
@@ -72,13 +122,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DCD6E4852A8C114700E74DDC /* New Group */ = {
+		19FF20AA2A8AB6580009D3C7 /* Dispositivos */ = {
 			isa = PBXGroup;
 			children = (
-				DCD6E47F2A8AB70E00E74DDC /* Mapaa.swift */,
-				DCD6E4832A8BEC6400E74DDC /* BotaoView.swift */,
+				19F400812A8BDCB1007FD2DD /* NavigationView */,
+				19FF20B72A8ACC6C0009D3C7 /* Sheet */,
+				19FF20B32A8AB6ED0009D3C7 /* DispositivoModel.swift */,
+				19FF20AE2A8AB6C70009D3C7 /* DispositivoCell.swift */,
+				19FF20B02A8AB6CF0009D3C7 /* DispositivoRow.swift */,
+				19FF20AC2A8AB6BD0009D3C7 /* DispositivoView.swift */,
 			);
-			path = "New Group";
+			path = Dispositivos;
+			sourceTree = "<group>";
+		};
+		19FF20AB2A8AB6810009D3C7 /* Atividades */ = {
+			isa = PBXGroup;
+			children = (
+				DCD6E47D2A8AA04900E74DDC /* AtividadesView.swift */,
+			);
+			path = Atividades;
+			sourceTree = "<group>";
+		};
+		19FF20B72A8ACC6C0009D3C7 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				19FF20B52A8AC3220009D3C7 /* DispositivoSheet.swift */,
+			);
+			path = Sheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,10 +221,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F400952A8D3DF3007FD2DD /* BotaoView.swift in Sources */,
+				19F400862A8BE9F5007FD2DD /* SupportView.swift in Sources */,
+				19FF20AD2A8AB6BD0009D3C7 /* DispositivoView.swift in Sources */,
+				19F400912A8D3B49007FD2DD /* FerramentaSheet.swift in Sources */,
 				19FF20942A8A93EA0009D3C7 /* ContentView.swift in Sources */,
+				19FF20B12A8AB6CF0009D3C7 /* DispositivoRow.swift in Sources */,
+				19F400842A8BE423007FD2DD /* DispositivoNavigation.swift in Sources */,
+				19F400892A8BEC98007FD2DD /* FerramentaView.swift in Sources */,
+				19F400962A8D3DF3007FD2DD /* Mapaa.swift in Sources */,
+				19FF20B62A8AC3220009D3C7 /* DispositivoSheet.swift in Sources */,
+				DCD6E47E2A8AA04900E74DDC /* AtividadesView.swift in Sources */,
+				19FF20AF2A8AB6C70009D3C7 /* DispositivoCell.swift in Sources */,
 				19FF20922A8A93EA0009D3C7 /* supportcloneApp.swift in Sources */,
-				DCD6E4842A8BEC6400E74DDC /* BotaoView.swift in Sources */,
-				DCD6E4802A8AB70E00E74DDC /* Mapaa.swift in Sources */,
+				19FF20B42A8AB6ED0009D3C7 /* DispositivoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
