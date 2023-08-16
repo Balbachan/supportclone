@@ -11,7 +11,6 @@ struct AtividadesView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-    
                 VStack {
                     Image(systemName: "clock.fill")
                         .font(.system(size: 50))
