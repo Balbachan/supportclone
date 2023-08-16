@@ -12,6 +12,8 @@ struct SupportView: View {
         NavigationStack {
             ScrollView {
                 VStack {
+                    
+                    
                     VStack(spacing: 20) {
                         Divider()
                         DispositivoView()
