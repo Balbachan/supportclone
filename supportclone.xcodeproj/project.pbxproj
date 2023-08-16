@@ -11,6 +11,8 @@
 		19F400862A8BE9F5007FD2DD /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400852A8BE9F5007FD2DD /* SupportView.swift */; };
 		19F400892A8BEC98007FD2DD /* FerramentaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400882A8BEC98007FD2DD /* FerramentaView.swift */; };
 		19F400912A8D3B49007FD2DD /* FerramentaSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400902A8D3B49007FD2DD /* FerramentaSheet.swift */; };
+		19F400952A8D3DF3007FD2DD /* BotaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400932A8D3DF3007FD2DD /* BotaoView.swift */; };
+		19F400962A8D3DF3007FD2DD /* Mapaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400942A8D3DF3007FD2DD /* Mapaa.swift */; };
 		19FF20922A8A93EA0009D3C7 /* supportcloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */; };
 		19FF20942A8A93EA0009D3C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20932A8A93EA0009D3C7 /* ContentView.swift */; };
 		19FF20962A8A93EB0009D3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FF20952A8A93EB0009D3C7 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		19F400852A8BE9F5007FD2DD /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
 		19F400882A8BEC98007FD2DD /* FerramentaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerramentaView.swift; sourceTree = "<group>"; };
 		19F400902A8D3B49007FD2DD /* FerramentaSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FerramentaSheet.swift; sourceTree = "<group>"; };
+		19F400932A8D3DF3007FD2DD /* BotaoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotaoView.swift; sourceTree = "<group>"; };
+		19F400942A8D3DF3007FD2DD /* Mapaa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapaa.swift; sourceTree = "<group>"; };
 		19FF208E2A8A93EA0009D3C7 /* supportclone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supportclone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supportcloneApp.swift; sourceTree = "<group>"; };
 		19FF20932A8A93EA0009D3C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +73,15 @@
 			path = Ferramentas;
 			sourceTree = "<group>";
 		};
+		19F400922A8D3DE1007FD2DD /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				19F400932A8D3DF3007FD2DD /* BotaoView.swift */,
+				19F400942A8D3DF3007FD2DD /* Mapaa.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		19FF20852A8A93EA0009D3C7 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +101,7 @@
 		19FF20902A8A93EA0009D3C7 /* supportclone */ = {
 			isa = PBXGroup;
 			children = (
+				19F400922A8D3DE1007FD2DD /* New Group */,
 				19FF20AB2A8AB6810009D3C7 /* Atividades */,
 				19F400872A8BEC74007FD2DD /* Ferramentas */,
 				19FF20AA2A8AB6580009D3C7 /* Dispositivos */,
@@ -207,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F400952A8D3DF3007FD2DD /* BotaoView.swift in Sources */,
 				19F400862A8BE9F5007FD2DD /* SupportView.swift in Sources */,
 				19FF20AD2A8AB6BD0009D3C7 /* DispositivoView.swift in Sources */,
 				19F400912A8D3B49007FD2DD /* FerramentaSheet.swift in Sources */,
@@ -214,6 +229,7 @@
 				19FF20B12A8AB6CF0009D3C7 /* DispositivoRow.swift in Sources */,
 				19F400842A8BE423007FD2DD /* DispositivoNavigation.swift in Sources */,
 				19F400892A8BEC98007FD2DD /* FerramentaView.swift in Sources */,
+				19F400962A8D3DF3007FD2DD /* Mapaa.swift in Sources */,
 				19FF20B62A8AC3220009D3C7 /* DispositivoSheet.swift in Sources */,
 				DCD6E47E2A8AA04900E74DDC /* AtividadesView.swift in Sources */,
 				19FF20AF2A8AB6C70009D3C7 /* DispositivoCell.swift in Sources */,
