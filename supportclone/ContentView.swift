@@ -14,6 +14,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Localizações", systemImage: "mappin.and.ellipse")
                 }
+            AtividadesView()
+                .tabItem {
+                    Label("Atividade", systemImage: "clock.fill")
+                }
         }
     }
 }
