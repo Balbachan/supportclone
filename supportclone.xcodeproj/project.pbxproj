@@ -56,12 +56,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19F400812A8BDCB1007FD2DD /* NavigationView */ = {
+		19C7013D2A8D5C3000F719B7 /* Suporte */ = {
 			isa = PBXGroup;
 			children = (
-				19F400832A8BE423007FD2DD /* DispositivoNavigation.swift */,
+				19FF20AA2A8AB6580009D3C7 /* Dispositivos */,
+				19F400872A8BEC74007FD2DD /* Ferramentas */,
 			);
-			path = NavigationView;
+			path = Suporte;
 			sourceTree = "<group>";
 		};
 		19F400872A8BEC74007FD2DD /* Ferramentas */ = {
@@ -73,13 +74,14 @@
 			path = Ferramentas;
 			sourceTree = "<group>";
 		};
-		19F400922A8D3DE1007FD2DD /* New Group */ = {
+		19F400922A8D3DE1007FD2DD /* Localização */ = {
 			isa = PBXGroup;
 			children = (
 				19F400932A8D3DF3007FD2DD /* BotaoView.swift */,
 				19F400942A8D3DF3007FD2DD /* Mapaa.swift */,
 			);
-			path = "New Group";
+			name = "Localização";
+			path = "Localização";
 			sourceTree = "<group>";
 		};
 		19FF20852A8A93EA0009D3C7 = {
@@ -101,10 +103,9 @@
 		19FF20902A8A93EA0009D3C7 /* supportclone */ = {
 			isa = PBXGroup;
 			children = (
-				19F400922A8D3DE1007FD2DD /* New Group */,
-				19FF20AB2A8AB6810009D3C7 /* Atividades */,
-				19F400872A8BEC74007FD2DD /* Ferramentas */,
-				19FF20AA2A8AB6580009D3C7 /* Dispositivos */,
+				19F400922A8D3DE1007FD2DD /* Localização */,
+				19FF20AB2A8AB6810009D3C7 /* Atividade */,
+				19C7013D2A8D5C3000F719B7 /* Suporte */,
 				19F400852A8BE9F5007FD2DD /* SupportView.swift */,
 				19FF20932A8A93EA0009D3C7 /* ContentView.swift */,
 				19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */,
@@ -125,8 +126,8 @@
 		19FF20AA2A8AB6580009D3C7 /* Dispositivos */ = {
 			isa = PBXGroup;
 			children = (
-				19F400812A8BDCB1007FD2DD /* NavigationView */,
-				19FF20B72A8ACC6C0009D3C7 /* Sheet */,
+				19F400832A8BE423007FD2DD /* DispositivoNavigation.swift */,
+				19FF20B52A8AC3220009D3C7 /* DispositivoSheet.swift */,
 				19FF20B32A8AB6ED0009D3C7 /* DispositivoModel.swift */,
 				19FF20AE2A8AB6C70009D3C7 /* DispositivoCell.swift */,
 				19FF20B02A8AB6CF0009D3C7 /* DispositivoRow.swift */,
@@ -135,20 +136,12 @@
 			path = Dispositivos;
 			sourceTree = "<group>";
 		};
-		19FF20AB2A8AB6810009D3C7 /* Atividades */ = {
+		19FF20AB2A8AB6810009D3C7 /* Atividade */ = {
 			isa = PBXGroup;
 			children = (
 				DCD6E47D2A8AA04900E74DDC /* AtividadesView.swift */,
 			);
-			path = Atividades;
-			sourceTree = "<group>";
-		};
-		19FF20B72A8ACC6C0009D3C7 /* Sheet */ = {
-			isa = PBXGroup;
-			children = (
-				19FF20B52A8AC3220009D3C7 /* DispositivoSheet.swift */,
-			);
-			path = Sheet;
+			path = Atividade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
