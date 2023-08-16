@@ -10,7 +10,7 @@
 		19F400842A8BE423007FD2DD /* DispositivoNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400832A8BE423007FD2DD /* DispositivoNavigation.swift */; };
 		19F400862A8BE9F5007FD2DD /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400852A8BE9F5007FD2DD /* SupportView.swift */; };
 		19F400892A8BEC98007FD2DD /* FerramentaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400882A8BEC98007FD2DD /* FerramentaView.swift */; };
-		19F4008B2A8BECC1007FD2DD /* FerramentaSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4008A2A8BECC1007FD2DD /* FerramentaSheet.swift */; };
+		19F400912A8D3B49007FD2DD /* FerramentaSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F400902A8D3B49007FD2DD /* FerramentaSheet.swift */; };
 		19FF20922A8A93EA0009D3C7 /* supportcloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */; };
 		19FF20942A8A93EA0009D3C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20932A8A93EA0009D3C7 /* ContentView.swift */; };
 		19FF20962A8A93EB0009D3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FF20952A8A93EB0009D3C7 /* Assets.xcassets */; };
@@ -27,7 +27,7 @@
 		19F400832A8BE423007FD2DD /* DispositivoNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoNavigation.swift; sourceTree = "<group>"; };
 		19F400852A8BE9F5007FD2DD /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
 		19F400882A8BEC98007FD2DD /* FerramentaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerramentaView.swift; sourceTree = "<group>"; };
-		19F4008A2A8BECC1007FD2DD /* FerramentaSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerramentaSheet.swift; sourceTree = "<group>"; };
+		19F400902A8D3B49007FD2DD /* FerramentaSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FerramentaSheet.swift; sourceTree = "<group>"; };
 		19FF208E2A8A93EA0009D3C7 /* supportclone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supportclone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supportcloneApp.swift; sourceTree = "<group>"; };
 		19FF20932A8A93EA0009D3C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				19F400882A8BEC98007FD2DD /* FerramentaView.swift */,
-				19F4008A2A8BECC1007FD2DD /* FerramentaSheet.swift */,
+				19F400902A8D3B49007FD2DD /* FerramentaSheet.swift */,
 			);
 			path = Ferramentas;
 			sourceTree = "<group>";
@@ -207,9 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19F4008B2A8BECC1007FD2DD /* FerramentaSheet.swift in Sources */,
 				19F400862A8BE9F5007FD2DD /* SupportView.swift in Sources */,
 				19FF20AD2A8AB6BD0009D3C7 /* DispositivoView.swift in Sources */,
+				19F400912A8D3B49007FD2DD /* FerramentaSheet.swift in Sources */,
 				19FF20942A8A93EA0009D3C7 /* ContentView.swift in Sources */,
 				19FF20B12A8AB6CF0009D3C7 /* DispositivoRow.swift in Sources */,
 				19F400842A8BE423007FD2DD /* DispositivoNavigation.swift in Sources */,
