@@ -41,7 +41,6 @@ struct BotaoView: View {
                     Button {
                         print("Lista")
                     } label: {
-//                        ZStack{
                             HStack{
                                 Image(systemName: "list.bullet")
                                     .foregroundColor(.blue)
@@ -52,7 +51,7 @@ struct BotaoView: View {
                                     .foregroundColor(.blue)
                             }
                             
-//                        }
+
                         .frame(width: 320, height: 44)
                         .background(Color("Clone"))
                         .cornerRadius(8)
