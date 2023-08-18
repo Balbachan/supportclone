@@ -27,6 +27,12 @@ struct SupportView: View {
                         Divider()
                     }
                     
+                    VStack(spacing: 10) {
+                        ServicoView()
+                            .padding(.vertical, 10)
+                        Divider()
+                    }
+                    
                 }
                 .toolbar {
                     Button {

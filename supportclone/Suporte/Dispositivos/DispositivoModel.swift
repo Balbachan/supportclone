@@ -15,6 +15,13 @@ struct Dispositivos: Identifiable {
     var type: String
 }
 
+struct Servicos: Identifiable {
+    var id = UUID()
+    var image : String
+    var name: String
+    var description: String
+}
+
 struct Produtos: Identifiable {
     var id = UUID()
     var image : String
@@ -29,10 +36,10 @@ var dispositivosRow = [
     Dispositivos(image: "macbook", name: "Macbook Lau B", description: "MacBook Pro 14'", type: "macbook")
 ]
 
-//var servicosRow = [
-//    Dispositivos(image: "", name: "iCloud+", description: "10 GB de 50 GB usados"),
-//    Dispositivos(image: "appletv", name: "Apple TV+", description: "")
-//]
+var servicosRow = [
+    Servicos(image: "icloud", name: "iCloud+", description: "10 GB de 50 GB usados"),
+    Servicos(image: "appletv+", name: "Apple TV+", description: "")
+]
 
 var produtosRow = [
     Produtos(image: "", name: "AirPods+"),
