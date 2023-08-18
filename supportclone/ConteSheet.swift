@@ -12,13 +12,18 @@ struct ConteSheet: View {
     
     
     var body: some View {
+        
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading) {
-                    Text("Conte o que está acontecendo")
-                        .font(.title3)
-                        .bold()
+                    HStack{
+                        Text("Conte o que está acontecendo")
+                            .font(.title3)
+                            .bold()
+                        Spacer()
+                    }
                 } .padding()
+                
                 
                 .toolbar {
                     ToolbarItem(placement: .cancellationAction) {
@@ -33,9 +38,7 @@ struct ConteSheet: View {
                 }
             }
         }
-        
     }
-    
 }
 
 struct ConteSheet_Previews: PreviewProvider {
