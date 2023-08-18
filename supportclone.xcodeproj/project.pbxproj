@@ -28,6 +28,8 @@
 		19FF20B12A8AB6CF0009D3C7 /* DispositivoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20B02A8AB6CF0009D3C7 /* DispositivoRow.swift */; };
 		19FF20B42A8AB6ED0009D3C7 /* DispositivoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20B32A8AB6ED0009D3C7 /* DispositivoModel.swift */; };
 		19FF20B62A8AC3220009D3C7 /* DispositivoSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF20B52A8AC3220009D3C7 /* DispositivoSheet.swift */; };
+		DCCFD2AB2A8D63E000F69A06 /* ConteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCFD2AA2A8D63E000F69A06 /* ConteView.swift */; };
+		DCCFD2AD2A8D673300F69A06 /* ConteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCFD2AC2A8D673300F69A06 /* ConteSheet.swift */; };
 		DCD6E47E2A8AA04900E74DDC /* AtividadesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6E47D2A8AA04900E74DDC /* AtividadesView.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,8 @@
 		19FF20B02A8AB6CF0009D3C7 /* DispositivoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoRow.swift; sourceTree = "<group>"; };
 		19FF20B32A8AB6ED0009D3C7 /* DispositivoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoModel.swift; sourceTree = "<group>"; };
 		19FF20B52A8AC3220009D3C7 /* DispositivoSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispositivoSheet.swift; sourceTree = "<group>"; };
+		DCCFD2AA2A8D63E000F69A06 /* ConteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConteView.swift; sourceTree = "<group>"; };
+		DCCFD2AC2A8D673300F69A06 /* ConteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConteSheet.swift; sourceTree = "<group>"; };
 		DCD6E47D2A8AA04900E74DDC /* AtividadesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtividadesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +129,8 @@
 				19FF20AB2A8AB6810009D3C7 /* Atividade */,
 				19C7013D2A8D5C3000F719B7 /* Suporte */,
 				19F400852A8BE9F5007FD2DD /* SupportView.swift */,
+				DCCFD2AA2A8D63E000F69A06 /* ConteView.swift */,
+				DCCFD2AC2A8D673300F69A06 /* ConteSheet.swift */,
 				19FF20932A8A93EA0009D3C7 /* ContentView.swift */,
 				19FF20912A8A93EA0009D3C7 /* supportcloneApp.swift */,
 				19FF20952A8A93EB0009D3C7 /* Assets.xcassets */,
@@ -251,6 +257,8 @@
 				DCD6E47E2A8AA04900E74DDC /* AtividadesView.swift in Sources */,
 				19FF20AF2A8AB6C70009D3C7 /* DispositivoCell.swift in Sources */,
 				19FF20922A8A93EA0009D3C7 /* supportcloneApp.swift in Sources */,
+				DCCFD2AD2A8D673300F69A06 /* ConteSheet.swift in Sources */,
+				DCCFD2AB2A8D63E000F69A06 /* ConteView.swift in Sources */,
 				19FF20B42A8AB6ED0009D3C7 /* DispositivoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
