@@ -34,7 +34,7 @@ struct ConteView: View {
             
         } .buttonStyle(PlainButtonStyle())
             .sheet(isPresented: $ConteSheet) {
-                Text("Oi Laura")
+                supportclone.ConteSheet()
             }
     }
 }

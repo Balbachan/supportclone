@@ -12,7 +12,7 @@ struct SupportView: View {
         NavigationStack {
             ScrollView {
                 VStack {
-                    
+                    ConteView()
                     
                     VStack(spacing: 20) {
                         Divider()
